@@ -21,7 +21,7 @@ jobs:
       - name: Prepare verification files
         run: |
           mkdir public
-          cp index.html .nojekyll e33e810e10527a1d51a0341534a9b38d.txt public/
+          cp index.html .nojekyll e33e810e10527a1d51a0341534a9b38d.txt 566c863115e216b54f908af769b51080.txt public/
       - uses: actions/upload-pages-artifact@v3
         with:
           path: public
